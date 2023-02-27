@@ -1,0 +1,71 @@
+
+body{
+    background-color: rgb(233, 222, 222);
+    
+    
+}
+ #wrapper{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+
+
+header{
+    display:flex;
+    height: 80px;
+    flex-grow: 1;
+    
+    
+}
+#wikipedia img{
+    height: 30px;
+    width: 100px;
+}
+
+.divheader{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#search span{
+    border: 1px solid black;
+    width: 450px;
+    height: 30px;
+}
+
+#login{
+display: flex;
+flex-direction: row-reverse;
+}   
+
+#space{
+    flex-grow: 1;
+}
+
+#space p{
+    color:white
+}
+
+
+#container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: white;
+    height: max-content;
+}
+
+#innercontainer{
+    
+    margin-top: 0px;
+    margin-right: 20%;
+    margin-top: 8%;
+    margin-left: 20%;
+    background-color: rgb(255, 255, 255);
+}
+
